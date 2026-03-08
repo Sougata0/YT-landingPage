@@ -3,13 +3,19 @@ import { useState } from "react";
 
 const Subs = () => {
   const [open, setOpen] = useState(true);
-  const [more, setMore] = useState('45');
+  const [isExpended, setIsExpended] = useState(false);
+  const maxHeight = isExpended ? "max-h-65" : "max-h-20";
+
+  // console.log(open);
+  // console.log(maxHeight);
 
   const handleSubscriptionClick = () => {
     if (open) {
-      setMore('45');
+      setOpen(false);
+      setIsExpended(false);
+      return;
     }
-    setOpen(!open);
+    setOpen(true);
   };
 
   return (
@@ -20,59 +26,108 @@ const Subs = () => {
       >
         <h2>Subscription</h2>
         <div className={`transition-transform ${open ? "rotate-90" : " "}`}>
-          <CircleChevronRight className="h-5 w-5"/> 
+          <CircleChevronRight className="h-5 w-5" />
         </div>
       </div>
 
-      {open && (
-        <div
-          className={`flex flex-col gap-1 overflow-hidden transition-all duration-300 ${open ? `max-h-${more}` : "max-h-0"} cursor-pointer`}
-        >
-          <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-semibold text-[15px]">
-            <div className="h-7 w-7 min-w-7 object-cover overflow-hidden bg-white rounded-full">
-              <img
-                className="size-8"
-                src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-              />
-            </div>
-            <div className="justify-between flex-1 ml-4 flex">
-              <h2 className="truncate">Harkirat Singh</h2>
-              <span className="text-blue-500">!</span>
-            </div>
+      <div
+        id="subscription"
+        className={`flex flex-col gap-1 transition-all duration-300 ${open ? maxHeight : "max-h-0"} cursor-pointer overflow-auto`}
+      >
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
           </div>
-          <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-semibold text-[15px]">
-            <div className="h-7 w-7 min-w-7 object-cover overflow-hidden bg-white rounded-full">
-              <img
-                className="size-8"
-                src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-              />
-            </div>
-            <div className="justify-between flex-1 ml-4 flex">
-              <h2 className="truncate">Manu Arora</h2>
-              <span className="text-blue-500">!</span>
-            </div>
-          </div>
-          <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-semibold text-[15px]">
-            <div className="h-7 w-7 min-w-7 object-cover overflow-hidden bg-white rounded-full">
-              <img
-                className="size-8"
-                src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-              />
-            </div>
-            <div className="justify-between flex-1 ml-4 flex">
-              <h2 className="truncate">Manu Arora</h2>
-              <span className="text-blue-500">!</span>
-            </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Harkirat Singh</h2>
+            <span className="text-blue-500">!</span>
           </div>
         </div>
-      )}
-      <button 
-      onClick={()=>{
-        setMore('100')
-      }}
-      className="hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px] flex items-center w-full gap-6 cursor-pointer">
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
+          </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Harkirat Singh</h2>
+            <span className="text-blue-500">!</span>
+          </div>
+        </div>
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
+          </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Harkirat Singh</h2>
+            <span className="text-blue-500">!</span>
+          </div>
+        </div>
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
+          </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Manu Arora</h2>
+            <span className="text-blue-500">!</span>
+          </div>
+        </div>
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
+          </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Manu Arora</h2>
+            <span className="text-blue-500">!</span>
+          </div>
+        </div>
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
+          </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Manu Arora</h2>
+            <span className="text-blue-500">!</span>
+          </div>
+        </div>
+        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
+          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
+            <img
+              className="size-8"
+              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+            />
+          </div>
+          <div className="justify-between flex-1 ml-4 flex">
+            <h2 className="truncate">Manu Arora</h2>
+            <span className="text-blue-500">!</span>
+          </div>
+        </div>
+      </div>
+      <button
+        onClick={() => {
+          setOpen(true);
+          setIsExpended(true);
+        }}
+        className="hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px] flex items-center w-full gap-6 cursor-pointer"
+      >
         <span>
-          <CircleArrowDown  className="h-5 w-5"/>
+          <CircleArrowDown className="h-5 w-5" />
         </span>
         Show more
       </button>
