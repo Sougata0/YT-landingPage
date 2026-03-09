@@ -1,11 +1,15 @@
 import { Menu } from "lucide-react";
 
-const Nav1Left = () => {
+const Nav1Left = ({sidebar, setSidebar}) => {
+
+  // console.log(setSidebar);
+  
+  console.log(sidebar);
   return (
     <div>
       <div className="flex gap-6 items-center">
         <div>
-          <Menu size={25} strokeWidth={2} />
+          <Menu size={25} strokeWidth={2} onClick={()=>{setSidebar(prev => !prev)}}/>
         </div>
         <div className="text-2xl font-semibold pr-3 flex mr-2">
           <img
