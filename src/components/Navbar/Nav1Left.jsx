@@ -7,7 +7,7 @@ const Nav1Left = () => {
         <div>
           <Menu size={25} strokeWidth={2} />
         </div>
-        <div className="text-2xl font-semibold pr-3 flex">
+        <div className="text-2xl font-semibold pr-3 flex mr-2">
           <img
             className="size-8"
             src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"

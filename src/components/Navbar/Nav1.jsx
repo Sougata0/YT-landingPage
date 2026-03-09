@@ -4,7 +4,7 @@ import Nav1Right from "./Nav1Right"
 
 const Nav1 = () => {
     return(
-        <div className="px-7 py-2 flex justify-between items-center bg-neutral-950">
+        <div className="px-7 h-14 flex justify-between items-center bg-neutral-950 sticky top-0 left-0 w-full">
             <Nav1Left/>
             <Nav1Center/>
             <Nav1Right/>

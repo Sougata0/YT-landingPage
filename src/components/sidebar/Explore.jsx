@@ -22,7 +22,7 @@ const Explore = () => {
     <div className="cursor-pointer">
       <div
         onClick={handleSubscriptionClick}
-        className="flex gap-4 hover:bg-neutral-700 rounded-xl py-1.5 px-3 h-10 font-semibold items-center justify-between pr-18"
+        className="flex gap-2 hover:bg-neutral-700 rounded-xl py-1.5 px-3 h-10 font-semibold items-center pr-18"
       >
         <h2>Explore</h2>
         <div className={`transition-transform ${open ? "rotate-90" : " "}`}>

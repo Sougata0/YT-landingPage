@@ -7,7 +7,7 @@ import {Menu, House} from 'lucide-react';
  
 const Sidebar = () => {
   return (
-    <div className="bg-neutral-950 h-screen w-60 px-4">
+    <div id="subscription" className="bg-neutral-950 h-screen w-60 px-4 overflow-auto fixed pb-5">
       <div className="flex flex-col gap-1">
         <div className="flex gap-5 h-10 items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 text-[15px] font-semibold">
           <House/>
