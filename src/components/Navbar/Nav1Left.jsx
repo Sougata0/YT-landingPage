@@ -1,10 +1,7 @@
 import { Menu } from "lucide-react";
 
-const Nav1Left = ({sidebar, setSidebar}) => {
+const Nav1Left = ({setSidebar}) => {
 
-  // console.log(setSidebar);
-  
-  console.log(sidebar);
   return (
     <div>
       <div className="flex gap-6 items-center">

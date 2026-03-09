@@ -8,7 +8,9 @@ const Nav1Right = () => {
                 <h2>Create</h2>
             </div>
             <Bell/>
-            <div className='bg-white h-8 w-8 rounded-full '></div>
+            <div className='bg-white h-8 w-8 overflow-hidden rounded-full '>
+                <img src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp" alt="" />
+            </div>
         </div>
     )
 }

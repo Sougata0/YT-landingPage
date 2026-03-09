@@ -8,24 +8,12 @@ function App() {
 
   const [sidebar, setSidebar] = useState(true)
 
-//   const sidebarOpen = () => {
-//  if (sidebar) {
-//     setSidebar(false)
-//     return
-//   } setSidebar(true)
-  
-//   }
-
-  console.log(sidebar);
-  // console.log(setSidebar)
-  
-
- 
+  const [shorts, setShorts] = useState(false)
   return (
     <div>
-      <Nav1 setSidebar= {setSidebar} sidebar = {sidebar}/>
-      <Sidebar sidebar = {sidebar}/>
-      <Content sidebar = {sidebar}/>
+      <Nav1 setSidebar= {setSidebar}/>
+      <Sidebar sidebar = {sidebar} setShorts = {setShorts}/>
+      <Content sidebar = {sidebar} shorts = {shorts}/>
     </div>
   )
 }
