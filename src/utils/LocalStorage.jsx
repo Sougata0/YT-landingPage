@@ -5,15 +5,15 @@ const creators = [
       "videos": [
         {
           "title": "Learn JavaScript in 10 Minutes",
-          "thumbnail": "https://source.unsplash.com/400x225/?coding"
+          "thumbnail": "https://i.pinimg.com/1200x/64/e6/d2/64e6d26520b95e8b1c42099a89a036fa.jpg"
         },
         {
           "title": "React Hooks Explained",
-          "thumbnail": "https://source.unsplash.com/400x225/?reactjs"
+          "thumbnail": "https://i.pinimg.com/736x/fb/58/c7/fb58c789d9017de269b1457e9347cf00.jpg"
         },
         {
           "title": "Build a Todo App with Node.js",
-          "thumbnail": "https://source.unsplash.com/400x225/?nodejs"
+          "thumbnail": "https://i.pinimg.com/736x/9c/ec/b6/9cecb69b42cb7470a03323a0720e5f81.jpg"
         }
       ]
     },
@@ -23,19 +23,19 @@ const creators = [
       "videos": [
         {
           "title": "Top 10 Gadgets of 2026",
-          "thumbnail": "https://source.unsplash.com/400x225/?gadgets"
+          "thumbnail": "https://i.pinimg.com/736x/cd/00/09/cd0009206e4da47a0931562b518a7d9c.jpg"
         },
         {
           "title": "Laptop Buying Guide",
-          "thumbnail": "https://source.unsplash.com/400x225/?laptop"
+          "thumbnail": "https://i.pinimg.com/736x/57/9f/a7/579fa740f59c51c83bdfa7cfeb98ed76.jpg"
         },
         {
           "title": "Best Smartphones Right Now",
-          "thumbnail": "https://source.unsplash.com/400x225/?smartphone"
+          "thumbnail": "https://i.pinimg.com/736x/22/48/3f/22483f0a90317f24db284c0852a5351f.jpg"
         },
         {
           "title": "Future of AI Devices",
-          "thumbnail": "https://source.unsplash.com/400x225/?artificial-intelligence"
+          "thumbnail": "https://i.pinimg.com/736x/eb/89/26/eb892679a9733c8c8895ceb125f1d144.jpg"
         }
       ]
     },
@@ -45,11 +45,11 @@ const creators = [
       "videos": [
         {
           "title": "Exploring Bali in 5 Days",
-          "thumbnail": "https://source.unsplash.com/400x225/?bali"
+          "thumbnail": "https://i.pinimg.com/1200x/a9/a9/14/a9a914b3f579c222dd5db08ce0f77a4b.jpg"
         },
         {
           "title": "Hidden Places in Europe",
-          "thumbnail": "https://source.unsplash.com/400x225/?europe-travel"
+          "thumbnail": "https://i.pinimg.com/1200x/13/77/52/13775251ff9eaad0c719664de73b927b.jpg"
         }
       ]
     },
@@ -59,15 +59,15 @@ const creators = [
       "videos": [
         {
           "title": "Street Food in India",
-          "thumbnail": "https://source.unsplash.com/400x225/?street-food"
+          "thumbnail": "https://i.pinimg.com/736x/81/32/27/81322759e5d3b9537c2648556a48faab.jpg"
         },
         {
           "title": "Easy Pasta Recipe",
-          "thumbnail": "https://source.unsplash.com/400x225/?pasta"
+          "thumbnail": "https://i.pinimg.com/736x/81/32/27/81322759e5d3b9537c2648556a48faab.jpg"
         },
         {
           "title": "Best Burgers Ever",
-          "thumbnail": "https://source.unsplash.com/400x225/?burger"
+          "thumbnail": "https://i.pinimg.com/736x/81/32/27/81322759e5d3b9537c2648556a48faab.jpg"
         }
       ]
     },

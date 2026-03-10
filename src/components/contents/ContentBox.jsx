@@ -16,7 +16,7 @@ const ContentBox = ({ userData }) => {
         >
           <img
             className="object-cover overflow-hidden rounded-xl w-full aspect-video mb-2 "
-            src="https://i.pinimg.com/736x/2e/dd/5a/2edd5adb88565814d654e1e58289fddc.jpg"
+            src={elem.thumbnail}
           />
           <div className="flex hover:cursor-pointer pl-1 pt-1">
             <div className="bg-amber-50 overflow-hidden h-9 min-w-9 max-w-9 rounded-full">

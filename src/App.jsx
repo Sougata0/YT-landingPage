@@ -9,8 +9,6 @@ function App() {
   const [creator] = useContext(AuthContext)
   const [userData, setUserData] = useState(creator)
   // console.log(userData)
-
-
   const [sidebar, setSidebar] = useState(true)
   const [shorts, setShorts] = useState(false)
   return (
