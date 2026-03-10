@@ -177,3 +177,11 @@ const creators = [
     }
   ]
 
+export const setLocalStorage = () => {
+  localStorage.setItem("creators",JSON.stringify(creators));
+}
+
+export const getLocalStorage = () => {
+  const creators = JSON.parse(localStorage.getItem("creators"))
+  return {creators}
+}

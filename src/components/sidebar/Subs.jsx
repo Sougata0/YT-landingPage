@@ -1,7 +1,8 @@
 import { CircleArrowDown, CircleChevronRight } from "lucide-react";
 import { useState } from "react";
+import Channel from "./Channel";
 
-const Subs = () => {
+const Subs = ({setUserData}) => {
   const [open, setOpen] = useState(true);
   const [isExpended, setIsExpended] = useState(false);
   const maxHeight = isExpended ? "max-h-65" : "max-h-20";
@@ -34,90 +35,7 @@ const Subs = () => {
         id="subscription"
         className={`flex flex-col gap-1 transition-all duration-300 ${open ? maxHeight : "max-h-0"} cursor-pointer overflow-auto`}
       >
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Harkirat Singh</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Harkirat Singh</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Harkirat Singh</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Manu Arora</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Manu Arora</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Manu Arora</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
-        <div className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]">
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden bg-white rounded-full">
-            <img
-              className="size-8"
-              src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
-            />
-          </div>
-          <div className="justify-between flex-1 ml-4 flex">
-            <h2 className="truncate">Manu Arora</h2>
-            <span className="text-blue-500">!</span>
-          </div>
-        </div>
+        <Channel setUserData={setUserData}/>
       </div>
       <button
         onClick={() => {

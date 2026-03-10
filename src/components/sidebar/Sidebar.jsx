@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Explore from "./Explore";
 import Footer from "./Footer";
 import Manage from "./Manage";
@@ -6,9 +5,9 @@ import Setting from "./Setting";
 import Subs from "./Subs";
 import {Menu, House} from 'lucide-react';
 
-const Sidebar = ({sidebar, setShorts}) => {
+const Sidebar = ({sidebar, setShorts, setUserData}) => {
   return (
-    <div id="subscription" className= {`h-screen  transition-all duration-100 ${sidebar ? "w-60 px-4" : "w-0 px-0"}  pt-14 overflow-auto fixed pb-5 `}>
+    <div id="subscription" className= {`h-screen transition-all duration-100 ${sidebar ? "w-60 px-4" : "w-0 px-0"} bg-black pt-14 overflow-auto fixed pb-5 `}>
       <div className="flex flex-col gap-1">
         <div 
           onClick={()=>{setShorts(false)}}
@@ -25,7 +24,7 @@ const Sidebar = ({sidebar, setShorts}) => {
       </div>
       <hr className="mt-3 mb-3 opacity-30"></hr>
       <div>
-        <Subs />
+        <Subs setUserData={setUserData}/>
         <Manage />
         <Explore />
         <Setting/>
