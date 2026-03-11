@@ -8,14 +8,13 @@ import { AuthContext } from './context/AuthProvider'
 function App() {
   const [creator] = useContext(AuthContext)
   const [userData, setUserData] = useState(creator)
-  // console.log(userData)
   const [sidebar, setSidebar] = useState(true)
-  const [shorts, setShorts] = useState(false)
+  // console.log(userData)
   return (
     <div>
       <Nav1 setSidebar= {setSidebar}/>
-      <Sidebar sidebar = {sidebar} setShorts = {setShorts} setUserData={setUserData}/>
-      <Content sidebar = {sidebar} shorts = {shorts} userData={userData}/>
+      <Sidebar sidebar = {sidebar} setUserData={setUserData}/>
+      <Content sidebar = {sidebar} userData={userData}/>
     </div>
   )
 }

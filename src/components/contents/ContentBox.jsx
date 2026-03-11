@@ -21,8 +21,8 @@ const ContentBox = ({ userData }) => {
           <div className="flex hover:cursor-pointer pl-1 pt-1">
             <div className="bg-amber-50 overflow-hidden h-9 min-w-9 max-w-9 rounded-full">
               <img
-                className="h-full w-full"
-                src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp"
+                className="h-full w-full object-cover"
+                src={userData.profilePhoto}
                 alt=""
               />
             </div>

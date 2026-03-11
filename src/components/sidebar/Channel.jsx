@@ -7,7 +7,7 @@ const Channel = ({setUserData}) => {
   // {creators?.creators.map((elem)=>{
   //     console.log(elem.channelName)
   // })}
-  // console.log(setUserData);
+  // console.log(userData?.creators);
   
   return (
     <div>
@@ -21,8 +21,12 @@ const Channel = ({setUserData}) => {
           key={elem.channelName}
           className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]"
         >
-          <div className="h-6 w-6 min-w-6 object-cover overflow-hidden rounded-full">
-            <img src="https://passport-photo-software.com/img/content/4x4-photo-size-before.webp" />
+          <div className="h-6 max-w-6 min-w-6 overflow-hidden rounded-full">
+            <img 
+            className="h-full w-full object-cover"
+            src={elem.profilePhoto} 
+            alt=""
+            />
           </div>
           <div className="justify-between flex-1 ml-4 flex">
             <h2 className="truncate">{elem.channelName}</h2>

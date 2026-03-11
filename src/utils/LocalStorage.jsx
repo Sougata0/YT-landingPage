@@ -1,7 +1,7 @@
 const creators = [
     {
       "channelName": "CodeCraft",
-      "profilePhoto": "https://i.pravatar.cc/150?img=1",
+      "profilePhoto": "https://i.pinimg.com/736x/96/01/32/960132cac51cfab965e251894524fea7.jpg",
       "videos": [
         {
           "title": "Learn JavaScript in 10 Minutes",
@@ -19,7 +19,7 @@ const creators = [
     },
     {
       "channelName": "TechWorld",
-      "profilePhoto": "https://i.pravatar.cc/150?img=2",
+      "profilePhoto": "https://i.pinimg.com/736x/3b/d9/ae/3bd9ae9caca1d5b1c6cd87cc72a994ec.jpg",
       "videos": [
         {
           "title": "Top 10 Gadgets of 2026",
@@ -41,7 +41,7 @@ const creators = [
     },
     {
       "channelName": "TravelScope",
-      "profilePhoto": "https://i.pravatar.cc/150?img=3",
+      "profilePhoto": "https://i.pinimg.com/1200x/e0/a3/72/e0a372b64c27a6dada2958b13584b9bb.jpg",
       "videos": [
         {
           "title": "Exploring Bali in 5 Days",
@@ -55,7 +55,7 @@ const creators = [
     },
     {
       "channelName": "FoodieBites",
-      "profilePhoto": "https://i.pravatar.cc/150?img=4",
+      "profilePhoto": "https://i.pinimg.com/736x/69/e2/58/69e2586140b43fd92c7b90a8ebe0e7e7.jpg",
       "videos": [
         {
           "title": "Street Food in India",
@@ -73,7 +73,7 @@ const creators = [
     },
     {
       "channelName": "GameVerse",
-      "profilePhoto": "https://i.pravatar.cc/150?img=5",
+      "profilePhoto": "https://i.pinimg.com/736x/47/4a/2c/474a2cd021e0dca1f743277b2733d5d9.jpg",
       "videos": [
         {
           "title": "Top 10 Games of the Year",
@@ -95,7 +95,7 @@ const creators = [
     },
     {
       "channelName": "FitLife",
-      "profilePhoto": "https://i.pravatar.cc/150?img=6",
+      "profilePhoto": "https://i.pinimg.com/736x/ed/97/17/ed97179b1a21251a1b4f3c2f03cd9273.jpg",
       "videos": [
         {
           "title": "10 Minute Home Workout",
@@ -109,7 +109,7 @@ const creators = [
     },
     {
       "channelName": "MusicHub",
-      "profilePhoto": "https://i.pravatar.cc/150?img=7",
+      "profilePhoto": "https://i.pinimg.com/736x/e8/e6/41/e8e64141f4c0ae39c32f9701ccea9a2e.jpg",
       "videos": [
         {
           "title": "Relaxing Piano Music",
@@ -127,7 +127,7 @@ const creators = [
     },
     {
       "channelName": "StudySmart",
-      "profilePhoto": "https://i.pravatar.cc/150?img=8",
+      "profilePhoto": "https://i.pinimg.com/736x/7d/d6/a0/7dd6a0bdd2d424f7bc6a00419c8ef843.jpg",
       "videos": [
         {
           "title": "How to Study Effectively",
@@ -145,7 +145,7 @@ const creators = [
     },
     {
       "channelName": "AutoDrive",
-      "profilePhoto": "https://i.pravatar.cc/150?img=9",
+      "profilePhoto": "https://i.pinimg.com/736x/f1/2f/37/f12f37a580349c171e0cb7ff6f3e8331.jpg",
       "videos": [
         {
           "title": "Supercars You Must See",
