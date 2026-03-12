@@ -1,11 +1,10 @@
-import ContentBox from "../contents/ContentBox"
 import LongVideos from "./Longvideos"
-import ShortVideos from "./ShortVideos"
 
 const MainPage = ({userData}) => {
     return(
         // (shorts ? <ShortVideos userData={userData}/> : <LongVideos userData={userData}/>)
-        <LongVideos userData={userData}/>
+        // <div>{userData?.videos.map((elem)=>(console.log(elem)))}</div>
+        <LongVideos userData={userData?.videos || userData}/>
     )
 }
 

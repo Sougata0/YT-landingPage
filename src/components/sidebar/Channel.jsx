@@ -7,7 +7,7 @@ const Channel = ({setUserData}) => {
   // {creators?.creators.map((elem)=>{
   //     console.log(elem.channelName)
   // })}
-  // console.log(userData?.creators);
+  // console.log(userData?.creators); //array of 10 objects
   
   return (
     <div>
@@ -16,7 +16,6 @@ const Channel = ({setUserData}) => {
           onClick={(e)=>{
             e.preventDefault()
             setUserData(elem)
-            
           }}
           key={elem.channelName}
           className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]"

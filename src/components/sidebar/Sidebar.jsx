@@ -19,9 +19,10 @@ const Sidebar = ({ sidebar, setUserData }) => {
       <div className="flex flex-col gap-1">
         <div
           onClick={() => {
-            console.log("home clicked");
+            // console.log("home clicked");
             const data = creator?.creators;
-            console.log(data);
+            setUserData(data)
+            // console.log(data); //array of 10 objects
           }}
           className="flex gap-5 h-10 items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 text-[15px] font-semibold"
         >

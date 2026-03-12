@@ -59,15 +59,15 @@ const creators = [
       "videos": [
         {
           "title": "Street Food in India",
-          "thumbnail": "https://i.pinimg.com/736x/81/32/27/81322759e5d3b9537c2648556a48faab.jpg"
+          "thumbnail": "https://i.pinimg.com/736x/9b/ba/7f/9bba7ff17dad4e8a165819d90ea93c59.jpg"
         },
         {
           "title": "Easy Pasta Recipe",
-          "thumbnail": "https://i.pinimg.com/736x/81/32/27/81322759e5d3b9537c2648556a48faab.jpg"
+          "thumbnail": "https://i.pinimg.com/736x/ef/d4/ec/efd4ecb5be7593899d72f90956d7ce72.jpg"
         },
         {
           "title": "Best Burgers Ever",
-          "thumbnail": "https://i.pinimg.com/736x/81/32/27/81322759e5d3b9537c2648556a48faab.jpg"
+          "thumbnail": "https://i.pinimg.com/736x/7c/dd/fb/7cddfbd1342c9c9942c1031642341c4f.jpg"
         }
       ]
     },
@@ -77,19 +77,19 @@ const creators = [
       "videos": [
         {
           "title": "Top 10 Games of the Year",
-          "thumbnail": "https://source.unsplash.com/400x225/?gaming"
+          "thumbnail": "https://i.pinimg.com/736x/ef/16/7f/ef167f1fe8a7f8d2d3fb7c30c7a543ff.jpg"
         },
         {
           "title": "Minecraft Survival Tips",
-          "thumbnail": "https://source.unsplash.com/400x225/?minecraft"
+          "thumbnail": "https://i.pinimg.com/736x/da/cd/b4/dacdb48537bd869bcc7a9f3eb07ea53a.jpg"
         },
         {
           "title": "Best FPS Games",
-          "thumbnail": "https://source.unsplash.com/400x225/?fps-game"
+          "thumbnail": "https://i.pinimg.com/736x/9c/98/d4/9c98d462d20918d19b81ff83dad8510e.jpg"
         },
         {
           "title": "Gaming Setup Tour",
-          "thumbnail": "https://source.unsplash.com/400x225/?gaming-setup"
+          "thumbnail": "https://i.pinimg.com/736x/aa/89/91/aa89919325eed43e0ae88cc5ec75c963.jpg"
         }
       ]
     },
@@ -99,11 +99,11 @@ const creators = [
       "videos": [
         {
           "title": "10 Minute Home Workout",
-          "thumbnail": "https://source.unsplash.com/400x225/?workout"
+          "thumbnail": "https://i.pinimg.com/736x/10/da/01/10da01c7aff421ebd9ee88ef712e1d4d.jpg"
         },
         {
           "title": "Morning Yoga Routine",
-          "thumbnail": "https://source.unsplash.com/400x225/?yoga"
+          "thumbnail": "https://i.pinimg.com/736x/db/bf/cb/dbbfcbc5272987ac99d7cb3a0e3f9ebb.jpg"
         }
       ]
     },
@@ -113,15 +113,15 @@ const creators = [
       "videos": [
         {
           "title": "Relaxing Piano Music",
-          "thumbnail": "https://source.unsplash.com/400x225/?piano"
+          "thumbnail": "https://i.pinimg.com/736x/87/41/44/874144a085babdaa884d5d0626a918f4.jpg"
         },
         {
           "title": "Top Pop Songs Playlist",
-          "thumbnail": "https://source.unsplash.com/400x225/?music"
+          "thumbnail": "https://i.pinimg.com/736x/64/a2/6b/64a26b07a2a8b7b9c91310926649edc4.jpg"
         },
         {
           "title": "Guitar Tutorial for Beginners",
-          "thumbnail": "https://source.unsplash.com/400x225/?guitar"
+          "thumbnail": "https://i.pinimg.com/736x/b3/a3/de/b3a3decf05cc52ec1c535087c28c9321.jpg"
         }
       ]
     },
@@ -131,15 +131,15 @@ const creators = [
       "videos": [
         {
           "title": "How to Study Effectively",
-          "thumbnail": "https://source.unsplash.com/400x225/?study"
+          "thumbnail": "https://i.pinimg.com/474x/d0/a6/44/d0a644f8fb5a94141d4371a51c357016.jpg"
         },
         {
           "title": "Productivity Tips for Students",
-          "thumbnail": "https://source.unsplash.com/400x225/?productivity"
+          "thumbnail": "https://i.pinimg.com/736x/ab/c3/ac/abc3ac0001bb2425a96c01919c6a42c3.jpg"
         },
         {
           "title": "Time Management Guide",
-          "thumbnail": "https://source.unsplash.com/400x225/?planning"
+          "thumbnail": "https://i.pinimg.com/736x/c5/43/ee/c543ee33e318faebeb1b8e0812d9f9c0.jpg"
         }
       ]
     },
@@ -149,29 +149,29 @@ const creators = [
       "videos": [
         {
           "title": "Supercars You Must See",
-          "thumbnail": "https://source.unsplash.com/400x225/?supercar"
+          "thumbnail": "https://i.pinimg.com/736x/6c/62/cc/6c62cc05246fec1572634efac33ce8e7.jpg"
         },
         {
           "title": "Electric Cars Explained",
-          "thumbnail": "https://source.unsplash.com/400x225/?electric-car"
+          "thumbnail": "https://i.pinimg.com/736x/33/33/84/33338433fba8407981c92f6abf3fdca8.jpg"
         }
       ]
     },
     {
-      "channelName": "NatureView",
+      "channelName": "Nitish Rajput",
       "profilePhoto": "https://i.pravatar.cc/150?img=10",
       "videos": [
         {
           "title": "Amazing Forest Documentary",
-          "thumbnail": "https://source.unsplash.com/400x225/?forest"
+          "thumbnail": "https://i.pinimg.com/1200x/86/a6/2b/86a62b0d34189ac00d2a3a7396b71b62.jpg"
         },
         {
           "title": "Ocean Life in 4K",
-          "thumbnail": "https://source.unsplash.com/400x225/?ocean"
+          "thumbnail": "https://i.pinimg.com/736x/d2/75/92/d27592c4f2250d19cb089c7a3ae51be0.jpg"
         },
         {
           "title": "Wild Animals Compilation",
-          "thumbnail": "https://source.unsplash.com/400x225/?wildlife"
+          "thumbnail": "https://i.pinimg.com/736x/60/5a/73/605a738299e9b66a70232a1693363d4d.jpg"
         }
       ]
     }
