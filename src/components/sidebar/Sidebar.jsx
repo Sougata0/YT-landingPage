@@ -8,7 +8,7 @@ import Setting from "./Setting";
 import Subs from "./Subs";
 import { Menu, House } from "lucide-react";
 
-const Sidebar = ({ sidebar, setUserData }) => {
+const Sidebar = ({ sidebar, setUserData, setActivePage }) => {
   const [creator] = useContext(AuthContext);
   
   return (
@@ -22,6 +22,7 @@ const Sidebar = ({ sidebar, setUserData }) => {
             // console.log("home clicked");
             const data = creator?.creators;
             setUserData(data)
+            setActivePage('home')
             // console.log(data); //array of 10 objects
           }}
           className="flex gap-5 h-10 items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 text-[15px] font-semibold"
@@ -44,7 +45,7 @@ const Sidebar = ({ sidebar, setUserData }) => {
       </div>
       <hr className="mt-3 mb-3 opacity-30"></hr>
       <div>
-        <Subs setUserData={setUserData} />
+        <Subs setUserData={setUserData} setActivePage={setActivePage} />
         <Manage />
         <Explore />
         <Setting />

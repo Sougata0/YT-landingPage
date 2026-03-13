@@ -2,7 +2,7 @@ import { CircleArrowDown, CircleChevronRight } from "lucide-react";
 import { useState } from "react";
 import Channel from "./Channel";
 
-const Subs = ({setUserData}) => {
+const Subs = ({setUserData, setActivePage}) => {
   const [open, setOpen] = useState(true);
   const [isExpended, setIsExpended] = useState(false);
   const maxHeight = isExpended ? "max-h-65" : "max-h-20";
@@ -35,7 +35,7 @@ const Subs = ({setUserData}) => {
         id="subscription"
         className={`flex flex-col gap-1 transition-all duration-300 ${open ? maxHeight : "max-h-0"} cursor-pointer overflow-auto`}
       >
-        <Channel setUserData={setUserData}/>
+        <Channel setUserData={setUserData} setActivePage={setActivePage}/>
       </div>
       <button
         onClick={() => {

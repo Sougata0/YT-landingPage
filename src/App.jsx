@@ -8,6 +8,7 @@ import { AuthContext } from './context/AuthProvider'
 function App() {
   const [creator] = useContext(AuthContext)
   const [userData, setUserData] = useState([])
+  const [activePage, setActivePage] = useState("home")
   const [sidebar, setSidebar] = useState(true)
   // console.log(creator)
   useEffect(()=>{
@@ -22,8 +23,8 @@ function App() {
   return (
     <div>
       <Nav1 setSidebar= {setSidebar}/>
-      <Sidebar sidebar = {sidebar} setUserData={setUserData}/>
-      <Content sidebar = {sidebar} userData={userData}/>
+      <Sidebar sidebar = {sidebar} setUserData={setUserData} setActivePage={setActivePage}/>
+      <Content sidebar = {sidebar} userData={userData} activePage={activePage}/>
     </div>
   )
 }

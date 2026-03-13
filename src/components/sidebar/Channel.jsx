@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthProvider";
 
-const Channel = ({setUserData}) => {
+const Channel = ({setUserData, setActivePage}) => {
   const [userData] = useContext(AuthContext);
   // console.log(creators?.creators);
   // {creators?.creators.map((elem)=>{
@@ -15,7 +15,8 @@ const Channel = ({setUserData}) => {
         <div
           onClick={(e)=>{
             e.preventDefault()
-            setUserData(elem)
+            setUserData(elem)            
+            setActivePage(elem.channelName)
           }}
           key={elem.channelName}
           className="flex items-center hover:bg-neutral-700  rounded-xl py-1.5 px-3 h-10 font-normal text-[15px]"
